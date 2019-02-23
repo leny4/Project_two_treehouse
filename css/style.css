@@ -2,7 +2,7 @@
 /********************/
 
 *{
-    background-color: green;
+    background-color: yellow;
 
 }
 
@@ -77,6 +77,11 @@ header ul {
 #centro p{
     text-align: center;
 }
+ #centro{
+
+    background-color: aliceblue;
+}
+
 
     /*********FOOTER****/
     /******************/
