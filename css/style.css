@@ -1,97 +1,37 @@
-/*****UNIVERSAL*******/
-/********************/
-
+/******************
+******************
+Unviesal
+*/
 *{
-    background-color: yellow;
-
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow: auto;
+    text-align: center ;
+    background-color:grey; 
 }
-
+#centro{
+    background-color:blue; 
+}
 
 img {
-    max-width: 100%;            
-}
-
-/*UNIVERSAL A
-Take off underlin*/
-a{
-    text-decoration:none;
-    color: black;
-}
-
-/*UNIVERSAL UL
-1st Take off Dot*/
-ul {
-    list-style-type: none;
-    text-align: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    max-width: 100%;
+    height: auto;
+    position: center;
+    width: 45em;
+} 
 
 
- p { 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-  
 
-/****H2 IS USED ONLY IN SECTION***/
-/*********************************/
-h2{
-    text-align: center;
-}
-/**************HEADER************/
-/*******************************/
-header h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-header p {
-    color: grey;
-    font-size: 30px;
-}
+@media(min-width 768px){
+    .body{
+        margin: auto      
+        width: 40%;
+    }
+.container{
     
-header ul {
-    margin: 15px 0;
-    font-size: 1.75em; 
+        float:center;
+   }
+
 }
-
-#Profileimg{
-
-    text-align: right;
-}
-     
-    /*********SECTION****/
-    /*******************/
-
-#centro {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        
-}
-
-#centro li {
-        float: left;
-        width: 45%;
-        margin: 2.5%;
-}
-
-#centro p{
-    text-align: center;
-}
- #centro{
-
-    background-color: aliceblue;
-}
-
-
-    /*********FOOTER****/
-    /******************/
-    
-footer .button {
-    text-align: right;
-}
-
-footer .contact {
-    text-align: center;
-}
-
-   
