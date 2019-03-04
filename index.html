@@ -7,6 +7,7 @@
     <title>Project-Treehouse</title>
     <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 
 
@@ -15,33 +16,34 @@
 <header id="top">
         <h1>Leonardo</h1>
         
+    <div class ="container ">
        <nav> 
-            <ul class="container">
-                    <li><a href="#top">Home </a> </li> 
-                    <li><a href="#centro">Portfolio</a> </li> 
-                    <li><a href="#sotto">Contact</a> </li>     
-                </ul>
+        <ul>
+                <li class="container1"><a href="#top"><b>Home</b> </a> </li> 
+                <li class="container2"><a href="#centro"><b>Portfolio</b></a> </li> 
+                <li class="container3"><a href="#sotto"><b>Contact</b></a> </li>       
+        </ul>
         </nav>
+    </div>
+
        
-        <p>Hi I'm a front-end developer who loves responsive
-           desing and css. I recently finished learning front-end
-           web development at Treehouse and am excited to put 
-           all my skills to use!
-        </p>
         <div id="Profileimg">
     <img src="images/responsive-layout-profile.png" alt="Immagine profilo" >
 </div>
-
+<p class=" introstart">Hi I'm a front-end developer who loves responsive
+    desing and css. I recently finished learning front-end
+    web development at Treehouse and am excited to put 
+    all my skills to use!
+ </p>
 </header>
         
 <!--SECONDA PARTE-->
 
 <section id="centro" >
     
-       
-        <h2>Portfolio</h2>
-
-    <ul >
+    
+    <ul class="ulcentro">
+            <h2 >Portfolio</h2>
         <li>
              <img src="images/portfolio-1.png">
             <h2> Marketing Page</h2>
@@ -103,28 +105,31 @@
    
 
     <!--TERZA PARTE-->
- <footer>
+ <footer id="sotto">
         
     
             <h3>Contact</h3>
                 <p>If you're interested in chatting or want more information
                 about what I've been working on, I'd love to hear from you!
                 </p>
-            <p>Phone: <strong>+1(111)555-1234</strong></p>
-            <p>Email: <strong>email@yoursite.com</strong></p>
-    
+            <p>Phone <strong>+1(111)555-1234</strong></p>
+            <p>Email <strong>email@yoursite.com</strong></p>
+            </div>
     <hr> <!--LINE----DIV IED-->
 
-    <div id="sotto">
-        <ul>
-            <li><a href=#top>Home </a> </li> 
-            <li><a href=#centro>Portfolio</a> </li> 
-            <li><a href=#sotto>Contact</a> </li>   
-        </ul>
-    </div>
-
-        <p class="copy">&copy;Leonardo</p>
+    <div id="textbox">
+        
+        <ul class="downdownright">
+            <li><a href=#top><b>Home</b> </a> </li> 
+            <li><a href=#centro><b>Portfolio</b></a> </li> 
+            <li><a href=#sotto><b>Contact</b></a> </li>  
+            <li><a href=#top><b>BACK TO TOP</b></a> </li>  
+        </ul>   
     
+             <p class="downdownleft">&copy;<b>Leonardo</b></p>
+            
+    </div>
+  
  </footer>
     </body>
 </html>
