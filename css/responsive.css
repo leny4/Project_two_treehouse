@@ -1,13 +1,46 @@
 
 @media  only screen and (min-width: 768px){
+   
+/*TOP TO BOTTOM*/
     h1{
         text-align: center;
     }
-    .container1{
-       display: none;
+    .container ul{
+        text-align: center;
         
     }
+
+.container1{
+        border:none;
+        background-color: transparent ;   
+        display:inline-block;
+        
+}
+.container2{
+    border:none;
+    background-color: transparent ;
+    display:inline-block;
+    
+}
+.container3{
+    border:none;
+    background-color: transparent ;
+    display:inline-block;
+   
+}
+
+#Profileimg{
+    text-align: right;
+     ;
  }
+.introstart{
+    display: inline;
+}
+
+
+}
+
+
 
  @media  only screen and (min-width: 1024px){
     body{background-color:pink;}
