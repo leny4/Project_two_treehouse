@@ -65,16 +65,21 @@ ul {
     margin-top: 10%;
     font-size: 30px;
   }
+
  /*SECTION PART*/
 section{
     background-color: white;
     text-align: center;
     }
+    #centercenter{
+        padding-top: 5%;
+        margin-bottom: 0%;
+    }
     
     .ulcentro{
-        margin-top: 100px;     
+        margin-top: 0px;     
         margin-bottom: 50px;
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 100px;
     }
    

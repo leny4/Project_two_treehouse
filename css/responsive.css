@@ -2,7 +2,9 @@
 @media  only screen and (min-width: 768px){
    
 /*TOP TO BOTTOM*/
-    h1{
+    
+body{background-color:blueviolet;}
+h1{
         text-align: center;
     }
     .container ul{
@@ -29,14 +31,33 @@
    
 }
 
+
+
+.clearfix{
+    display: inline-block;
+    
+}
 #Profileimg{
-    text-align: right;
-     ;
+    float: right;
+  
+    
  }
 .introstart{
-    display: inline;
+   margin-top: 0;
+   
 }
-
+.ulcentro{
+    column-count: 2;
+    column-gap: 0;
+    padding-bottom: 0;
+    
+  }
+ .ulcentro li {
+    display: inline-block;
+    margin: 4%;
+    
+  }
+  
 
 }
 
