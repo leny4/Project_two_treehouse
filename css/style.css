@@ -118,15 +118,17 @@ section{
 
 }
 /*MAKING Disapear ul li home ecc..*/
-.downdownright li:nth-child(-n+3){
-      display: none;
-}
+
 .downdownright{
-    float: right;
-    margin-top: 1em
-   
+  float: right;
+  margin-top: 1em
+  
+ 
 }
-#textbox{
-    clear: both;
-    
-}
+ 
+@media(max-width:767px) {
+    .downdownright li:nth-child(-n+3){
+        display: none;
+        max-width: 768px;
+    }
+ }
