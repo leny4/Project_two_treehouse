@@ -7,7 +7,7 @@ body{background-color:blueviolet;}
 h1{
         text-align: center;
     }
-    .container ul{
+    .container ul{ 
         text-align: center;
         
     }
@@ -47,15 +47,19 @@ h1{
    
 }
 .ulcentro{
-    column-count: 2;
-    column-gap: 0;
-    padding-bottom: 0;
     
+   column-count: 2;
+   -webkit-column-width: 150px;
+   -moz-column-width: 150px;
+        column-width: 150px;
   }
  .ulcentro li {
-    display: inline-block;
-    margin: 4%;
     
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+         break-inside: avoid;
+         column-fill: balance;
+   
   }
   
 
@@ -65,4 +69,20 @@ h1{
 
  @media  only screen and (min-width: 1024px){
     body{background-color:pink;}
+
+    .ulcentro{
+    
+        column-count: 3;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+             column-width: 100%;
+       }
+      .ulcentro li {
+         
+         -webkit-column-break-inside: avoid;
+         page-break-inside: avoid;
+              break-inside: avoid;
+              column-fill: balance;
+        
+       }
 }
