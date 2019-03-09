@@ -82,6 +82,16 @@ h1{
 
  @media  only screen and (min-width: 1024px){
     body{background-color:pink;}
+    
+    .container ul{
+    text-align: right;   
+    position: relative;
+    bottom: 50px;
+}
+              
+   
+
+
     .ulcentro{
         font-size: 83%;
 
