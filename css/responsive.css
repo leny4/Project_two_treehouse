@@ -3,7 +3,7 @@
    
 /*TOP TO BOTTOM*/
     
-body{background-color:blueviolet;}
+
 h1{
         text-align: center;
     }
@@ -56,7 +56,7 @@ h1{
         margin: 0;
   }
  .ulcentro li {
-    
+    min-height: 300px;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
          break-inside: avoid;
@@ -64,16 +64,35 @@ h1{
          
    
   }
-  .downdownright li:nth-child(4){
-        display: none;
-        }
+
   
 #textbox .downdownright{
-   
+    top: 0px;
     column-count: 3;
     
 }
-    
+.downdownright li:first-child{
+
+    visibility: visible;
+   
+  
+  }
+.downdownright li:nth-child(2){
+
+    visibility: visible;
+ 
+  }
+  .downdownright li:nth-child(3){
+
+    visibility: visible;
+ 
+  }
+.downdownright li:nth-child(4){
+
+    display: none;
+  }
+
+
 }
 
 
@@ -81,8 +100,13 @@ h1{
 
 
  @media  only screen and (min-width: 1024px){
-    body{background-color:pink;}
+   
     
+
+    #top h1{
+        text-align: left;
+    }
+
     .container ul{
     text-align: right;   
     position: relative;
@@ -102,7 +126,7 @@ h1{
              margin: 0;
        }
       .ulcentro li {
-         
+        min-height: 400px;
          -webkit-column-break-inside: avoid;
          page-break-inside: avoid;
               break-inside: avoid;

@@ -126,10 +126,26 @@ section{
   
  
 }
+
+.downdownright li:first-child{
+
+  visibility: hidden;
  
 
-    .downdownright li:nth-child(-n+3){
-        display: none;
-        max-width: 768px;
-    }
- 
+}
+.downdownright li:nth-child(2){
+  visibility: hidden;
+  
+}
+
+.downdownright li:nth-child(3){
+
+  visibility: hidden
+}
+
+.downdownright{
+  bottom: 0px;
+  position: relative;
+  top: -41px;
+  margin-top: 0px;
+}
